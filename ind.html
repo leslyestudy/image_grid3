@@ -1,0 +1,195 @@
+<html>
+<head>
+
+
+
+</head>
+
+<body>
+
+
+<style>
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { /* For full width image-container */
+  margin: 0 0 0 0;
+  
+  height:400px;
+  width:980px;
+}
+
+.tile {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  background-size: cover;
+  cursor: pointer;
+  position: relative;
+  float: left;
+  padding: 0 0 19% 0;
+  background-position: center;
+}
+
+.image-title {
+  width: 100%;
+  height: 25%;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 1rem 1rem;
+  font-size: .9em;
+  font-family:"Helvetica";
+  text-align: center;
+  line-height: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tile .image-title {
+  transition: 0.8s ease;
+}
+
+
+/* Hover effect on image tiles */
+
+.tile:hover .image-title {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 80%;
+}
+
+
+/* Pop up CSS light box */
+
+
+
+/* Responsive tiles starts here. Breaking points: 1280, 1024, 600, 360 */
+
+@media screen and (max-width: 1280px) {
+  .image-container .tile {
+    width: 25%;
+    padding-bottom: 25%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .image-container .tile {
+    width: 33.33%;
+    padding-bottom: 33.33%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .image-container .tile {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-container .tile {
+    width: 50%;
+    padding-bottom: 50%;
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .image-container .tile {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}
+
+</style>
+
+
+<div class="image-container">
+  <div class="tile" style="background-image: url('img/1.png');  height:190px; width:190px; ">
+    <div class="image-title"><h5><a href = "https://estudy.eu.crossknowledge.com/site/search/results#context=training&lang=en&chapter=16"
+	style="color: white">LEADERSHIP</a></h5>
+      Management
+Supervisory
+related training.
+    </div>
+   </div>
+  
+  <div class="tile" style="background-image: url('img/2.png');  height:190px; width:190px;">
+    <div class="image-title"><h5><a href = "https://estudy.eu.crossknowledge.com/site/search/results#context=training&lang=en&chapter=17" style="color: white">BUSINESS SKILLS</a></h5>
+      Day-to-Day
+job outputs
+    </div>
+   </div>
+  
+  <div class="tile" style="background-image: url('img/3.png');  height:190px; width:190px;">
+    <div class="image-title"><h5><a href = "https://estudy.eu.crossknowledge.com/site/search/results#context=training&lang=en&chapter=18" style="color: white">FINANCE &
+INSURANCE</a></h5>
+      Operational Finance
+Finance Legislation
+    </div>
+   </div>
+  
+  <div class="tile" style="background-image: url('img/4.png');  height:190px; width:190px;">
+    <div class="image-title"><h5><a href = "https://estudy.eu.crossknowledge.com/site/search/results#context=training&lang=en&chapter=19" style="color: white">SALES &
+MARKETING</a></h5>
+    SM Operations
+Legislation
+    </div>
+   </div>
+  
+  <div class="tile" style="background-image: url('img/5.png');  height:190px; width:190px;">
+    <div class="image-title"><h5><a href = "https://estudy.eu.crossknowledge.com/site/search/results#context=training&lang=en&chapter=20" style="color: white">INDUSTRIAL/
+EMPLOYEE RELATIONS</a></h5>
+      Human Resource
+Function
+Labour Law
+    </div>
+   </div><br><br>
+  
+  <div class="tile" style="background-image: url('img/6.png');  height:190px; width:190px;">
+    <div class="image-title"><h5><a href = "https://estudy.eu.crossknowledge.com/site/search/results#context=training&lang=en&chapter=21" style="color: white">PERSONAL
+DEVELOPMENT</a></h5>
+      Understanding/
+Improving myself
+Work Readiness
+    </div>
+   </div>
+  
+  <div class="tile" style="background-image: url('img/7.png');  height:190px; width:190px;">
+    <div class="image-title"><h5><a href = "https://estudy.eu.crossknowledge.com/site/search/results#context=training&lang=en&chapter=22" style="color: white">HEALTH &
+SAFETY</a></h5>
+     Legislation
+    </div>
+   </div>
+  
+  <div class="tile" style="background-image: url('img/8.png');  height:190px; width:190px;">
+    <div class="image-title"><h5><a href = "https://estudy.eu.crossknowledge.com/site/search/results#context=training&lang=en&chapter=23" style="color: white">B-BBEE</a></h5>
+      Various Elements
+    </div>
+   </div>
+  
+  <div class="tile" style="background-image: url('img/9.png');  height:190px; width:190px;">
+    <div class="image-title"><h5><a href = "https://estudy.eu.crossknowledge.com/site/search/results#context=training&lang=en&chapter=24" style="color: white">INFORMATION
+TECHNOLOGY</a></h5>
+      Anything related to
+computers
+    </div>
+   </div>
+  
+  <div class="tile" style="background-image: url('img/10.png');  height:190px; width:190px;">
+    <div class="image-title"><h5><a href = "https://estudy.eu.crossknowledge.com/site/search/results#context=training&lang=en&chapter=4" style="color: white">eSTUDY Content</a></h5>
+      eSTUDY Documents
+    </div>
+   </div>
+  
+
+  
+</div>     
+
+
+
+</body>
+</html>
